@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum of numbers</title>
+</head>
+<body>
+<script>
+    let num = parseInt(prompt("Nhập vào 1 số: "));
+    let sum = 0;
+    if (num<=0) {
+        alert("Số nhập vào phải lớn hơn 0");
+    } else {
+        for (i=1;i<=num;i++) {
+            sum+=i;
+        }
+    }
+    document.write("Tổng các số từ 1 đến " + num + " là " + sum);
+</script>
+</body>
+</html>
